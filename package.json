@@ -1,0 +1,22 @@
+{
+  "name": "mlgc-ariel",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/storage": "^7.14.0",
+    "@hapi/hapi": "^21.3.12",
+    "@hapi/inert": "^7.1.0",
+    "@tensorflow/tfjs-node": "^4.22.0",
+    "firebase-admin": "^13.0.1",
+    "tmp": "^0.2.3",
+    "uuid": "^11.0.3"
+  }
+}
